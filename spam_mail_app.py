@@ -72,3 +72,17 @@ with tab2:
     - **Test Accuracy:** ~96.7%
     """)
     st.info("This model generalizes based on word patterns learned during training — it may miss spam using unusual vocabulary not seen in the training data.")
+# ============================================================
+# FOOTER
+# ============================================================
+
+st.markdown(
+    """
+    <div class="footer">
+    Spam Mail Detection System
+    <br>
+    Developed By Apurva Joshi
+    </div>
+    """,
+    unsafe_allow_html=True
+)
