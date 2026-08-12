@@ -73,6 +73,19 @@ with tab2:
     """)
     st.info("This model generalizes based on word patterns learned during training — it may miss spam using unusual vocabulary not seen in the training data.")
 # ============================================================
+# DISCLAIMER
+# ============================================================
+
+st.divider()
+
+st.warning(
+    "⚠️ This application is an educational Machine Learning "
+    "project. Its predictions should not be considered a "
+    "guarantee that an email is safe or malicious."
+)
+
+
+# ============================================================
 # FOOTER
 # ============================================================
 
@@ -81,7 +94,7 @@ st.markdown(
     <div class="footer">
     Spam Mail Detection System
     <br>
-    Developed By Apurva Joshi
+    Developed By Apurva Joshi 
     </div>
     """,
     unsafe_allow_html=True
